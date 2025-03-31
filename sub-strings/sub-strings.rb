@@ -1,3 +1,5 @@
+# Realistically, this would need to be flushed out to appropriately handle hyphens and other special characters, as well as other English contractions besides 's
+
 def substrings(sentence, wList)
   occurrencesPerWord = Hash.new(0)
   words = sentence.split(" ")
