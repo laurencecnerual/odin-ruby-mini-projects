@@ -22,12 +22,24 @@ def caesar_cipher(plainText, shiftCount)
   cipherText
 end
 
-puts caesar_cipher("What a string!", 0)
-puts caesar_cipher("What a string!", 5)
-puts caesar_cipher("What a string!", 31)
-puts caesar_cipher("What a string!", -21)
-puts caesar_cipher("What a string!", -47)
-puts caesar_cipher("What a string!", 1)
-puts caesar_cipher("What a string!", -25)
-puts caesar_cipher("What a string!", -1)
-puts caesar_cipher("What a string!", 25)
+# Example usage below
+# puts caesar_cipher("What a string!", 0)
+# puts caesar_cipher("What a string!", 5)
+# puts caesar_cipher("What a string!", 31)
+# puts caesar_cipher("What a string!", -21)
+# puts caesar_cipher("What a string!", -47)
+# puts caesar_cipher("What a string!", 1)
+# puts caesar_cipher("What a string!", -25)
+# puts caesar_cipher("What a string!", -1)
+# puts caesar_cipher("What a string!", 25)
+
+# Example output below
+# What a string!
+# Bmfy f xywnsl!
+# Bmfy f xywnsl!
+# Bmfy f xywnsl!
+# Bmfy f xywnsl!
+# Xibu b tusjoh!
+# Xibu b tusjoh!
+# Vgzs z rsqhmf!
+# Vgzs z rsqhmf!
