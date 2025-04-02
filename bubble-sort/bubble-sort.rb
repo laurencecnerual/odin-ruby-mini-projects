@@ -11,7 +11,7 @@ def bubble_sort(arr)
   end
 
   if changeCount > 0
-    bubble_sort(arr)
+    bubble_sort(arr[0..arr.length - 2]) + [arr[arr.length - 1]]
   else
     arr
   end
@@ -20,7 +20,9 @@ end
 # example usage
 # p bubble_sort([4,3,78,2,0,2])
 # p bubble_sort([17,3,6,9,15,8,6,1,10])
+# p bubble_sort([4,3,78,2,0,2,17,3,6,9,15,8,6,1,10])
 
 # example output
 # [0, 2, 2, 3, 4, 78]
 # [1, 3, 6, 6, 8, 9, 10, 15, 17]
+# [0, 1, 2, 2, 3, 3, 4, 6, 6, 8, 9, 10, 15, 17, 78]
